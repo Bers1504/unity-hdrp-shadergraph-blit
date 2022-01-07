@@ -4,7 +4,9 @@ Demo of a patch to fix Graphics.Blit with HDRP Shader Graphs in Unity 2019.4
 Graphics.Blit only works with 2021.2+ Built-In Unlit Shader Graphs. If you are
 stuck with an older version of Unity in HDRP, Graphics.Blit will not work with
 Shader Graphs unless you use a workaround such as the one shown in this demo.
-![gif](https://i.imgur.com/NWcq2mb.png)
+
+For more information about Custom Render Texture and Shader Graphs, see:
+https://docs.unity3d.com/2022.1/Documentation/Manual/class-CustomRenderTexture.html#:~:text=update%20and%20initialize-,Custom%20Render%20Textures,-in%20Shader%20Graph
 
 ## Why using Graphics.Blit
 
@@ -39,8 +41,9 @@ Only a Shader reference and the target RenderTexture are needed.
 
 
 ## Related dicussion
-See these
-https://forum.unity.com/threads/graphics-blit-with-hdrp-shadergraph.724112/
-https://issuetracker.unity3d.com/issues/graphics-dot-blit-will-not-apply-the-material-correctly-when-the-material-uses-hdrp-or-shader-graph-shader
-
+For more info, see these links:
+- https://forum.unity.com/threads/graphics-blit-with-hdrp-shadergraph.724112/
+- https://issuetracker.unity3d.com/issues/graphics-dot-blit-will-not-apply-the-material-correctly-when-the-material-uses-hdrp-or-shader-graph-shader
+- https://docs.unity3d.com/2022.1/Documentation/Manual/class-CustomRenderTexture.html#:~:text=update%20and%20initialize-,Custom%20Render%20Textures,-in%20Shader%20Graph
+-
 
