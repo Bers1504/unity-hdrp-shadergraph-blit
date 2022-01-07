@@ -7,8 +7,8 @@ stuck with an older version of Unity in HDRP, Graphics.Blit will not work with
 Shader Graphs unless you use a workaround such as the one shown in this demo.
 
 For more information about Custom Render Texture and Shader Graphs, see:
+[Custom Render Texture Unity Documentation](https://docs.unity3d.com/2022.1/Documentation/Manual/class-CustomRenderTexture.html#:~:text=update%20and%20initialize-,Custom%20Render%20Textures,-in%20Shader%20Graph).
 
-https://docs.unity3d.com/2022.1/Documentation/Manual/class-CustomRenderTexture.html#:~:text=update%20and%20initialize-,Custom%20Render%20Textures,-in%20Shader%20Graph
 
 ## Why using Graphics.Blit
 
