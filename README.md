@@ -6,16 +6,17 @@ How to run the demo:
 1) Open scene "Assets/ShadergraphBlit/Example/Scene/BlitShadergraphDemo.unity"
 2) Press Play : the Shader Graph named "ShaderGraphBlit" will render to a RenderTexture named "ShaderGraphBlitRT".
 
-- The Shader Graph:
-
+## The Shader Graph:
+A Custom Function containing a patch is needed in the Shader Graph, to fix.
+This additional node must be attached to the vertex output.
 ![gif](https://i.imgur.com/40PMUoU.png)
 
 
-- The RenderTexture:
+## The RenderTexture:
 
 ![gif](https://i.imgur.com/vxgVYcB.png)
 
 
-- The Script Component:
+## The Script Component:
 
 ![gif](https://i.imgur.com/ZGhajNh.png)
