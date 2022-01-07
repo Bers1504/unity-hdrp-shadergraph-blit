@@ -10,11 +10,7 @@ The Shader Graph:
 ![gif](https://i.imgur.com/40PMUoU.png)
 
 The RenderTexture:
-![gif](https://imgur.com/vxgVYcB)
+![gif](https://i.imgur.com/vxgVYcB.png)
 
 The Script Component:
-![gif](https://imgur.com/ZGhajNh)
-
-Test:
-![gif](https://i.imgur.com/SsGMDnv.gif)
-
+![gif](https://i.imgur.com/ZGhajNh.png)
