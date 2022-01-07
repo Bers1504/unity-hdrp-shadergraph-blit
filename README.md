@@ -4,7 +4,7 @@ Demo of a patch to fix Graphics.Blit with HDRP Shader Graphs in Unity 2019.4
 Graphics.Blit only works with 2021.2+ Built-In Unlit Shader Graphs. If you are
 stuck with an older version of Unity in HDRP, Graphics.Blit will not work with
 Shader Graphs unless you use a workaround such as the one shown in this demo.
-https://i.imgur.com/NWcq2mb.png
+![gif](https://i.imgur.com/NWcq2mb.png)
 
 ## Why using Graphics.Blit
 
