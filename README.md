@@ -1,5 +1,6 @@
 # Unity-HDRPShaderGraphToTexture
-Demo of a patch to fix Graphics.Blit with HDRP Shader Graphs in Unity 2019.4
+Demo of a simple patch node (Custom Function) that can be added in Shader
+Graphs to fix broken Graphics.Blit with HDRP in Unity 2019.4 and 2020.1.
 
 Graphics.Blit only works with 2021.2+ Built-In Unlit Shader Graphs. If you are
 stuck with an older version of Unity in HDRP, Graphics.Blit will not work with
