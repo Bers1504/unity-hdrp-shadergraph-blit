@@ -6,6 +6,7 @@ stuck with an older version of Unity in HDRP, Graphics.Blit will not work with
 Shader Graphs unless you use a workaround such as the one shown in this demo.
 
 For more information about Custom Render Texture and Shader Graphs, see:
+
 https://docs.unity3d.com/2022.1/Documentation/Manual/class-CustomRenderTexture.html#:~:text=update%20and%20initialize-,Custom%20Render%20Textures,-in%20Shader%20Graph
 
 ## Why using Graphics.Blit
@@ -26,17 +27,20 @@ example).
 ## The Shader Graph:
 A Custom Function node containing a patch (hlsl) is needed in the Shader Graph, to allow the Graphics.Blit() to properly render the shader into the Render Texture.
 This additional node must be attached to a vertex output from the Unlit Master.
+
 ![gif](https://i.imgur.com/40PMUoU.png)
 
 
 ## The RenderTexture:
 The resulting RenderTexture, updated in real-time.
+
 ![gif](https://i.imgur.com/vxgVYcB.png)
 
 
 ## The Script Component:
 The script component required to perform the Blit.
 Only a Shader reference and the target RenderTexture are needed.
+
 ![gif](https://i.imgur.com/ZGhajNh.png)
 
 
