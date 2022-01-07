@@ -6,7 +6,8 @@ Graphics.Blit only works with 2021.2+ Built-In Unlit Shader Graphs. If you are
 stuck with an older version of Unity in HDRP, Graphics.Blit will not work with
 Shader Graphs unless you use a workaround such as the one shown in this demo.
 
-For more information about Custom Render Texture and Shader Graphs, see:
+For more information about Custom Render Texture and Shader Graphs, see the
+note below section "Render Pipeline Compatibility":
 [Custom Render Texture Unity Documentation](https://docs.unity3d.com/2022.1/Documentation/Manual/class-CustomRenderTexture.html#:~:text=update%20and%20initialize-,Custom%20Render%20Textures,-in%20Shader%20Graph).
 
 
