@@ -7,10 +7,14 @@ How to run the demo:
 2) Press Play : the Shader Graph named "ShaderGraphBlit" will render to a RenderTexture named "ShaderGraphBlitRT".
 
 The Shader Graph:
-![gif](https://imgur.com/40PMUoU)
+![gif](https://i.imgur.com/40PMUoU.png)
 
 The RenderTexture:
 ![gif](https://imgur.com/vxgVYcB)
 
 The Script Component:
 ![gif](https://imgur.com/ZGhajNh)
+
+Test:
+![gif](https://i.imgur.com/SsGMDnv.gif)
+
