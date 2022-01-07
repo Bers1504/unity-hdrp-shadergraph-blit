@@ -42,8 +42,8 @@ Only a Shader reference and the target RenderTexture are needed.
 
 ## Related dicussion
 For more info, see these links:
-- https://forum.unity.com/threads/graphics-blit-with-hdrp-shadergraph.724112/
-- https://issuetracker.unity3d.com/issues/graphics-dot-blit-will-not-apply-the-material-correctly-when-the-material-uses-hdrp-or-shader-graph-shader
-- https://docs.unity3d.com/2022.1/Documentation/Manual/class-CustomRenderTexture.html#:~:text=update%20and%20initialize-,Custom%20Render%20Textures,-in%20Shader%20Graph
--
-
+-https://forum.unity.com/threads/graphics-blit-with-hdrp-shadergraph.724112/
+-https://issuetracker.unity3d.com/issues/graphics-dot-blit-will-not-apply-the-material-correctly-when-the-material-uses-hdrp-or-shader-graph-shader
+-https://docs.unity3d.com/2022.1/Documentation/Manual/class-CustomRenderTexture.html#:~:text=update%20and%20initialize-,Custom%20Render%20Textures,-in%20Shader%20Graph
+-https://gamedevbill.com/full-screen-shaders-in-unity/
+-https://forum.unity.com/threads/custom-render-texture-shader-graph.799905/
