@@ -9,8 +9,10 @@ How to run the demo:
 The Shader Graph:
 ![gif](https://i.imgur.com/40PMUoU.png)
 
+
 The RenderTexture:
 ![gif](https://i.imgur.com/vxgVYcB.png)
+
 
 The Script Component:
 ![gif](https://i.imgur.com/ZGhajNh.png)
