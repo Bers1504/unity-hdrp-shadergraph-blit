@@ -17,8 +17,8 @@ One might ask why not use an additional Camera in front of a quad to render the
 Shader Graph surface? The main reason is using Graphics.Blit to render a Shader
 Graph directly to a RenderTexture is WAY faster than doing the same thing with
 a big quad and a camera in the scene, as most of the rendering pipeline is
-skipped. It is also simpler to setup, and prevent precision issues when running
-a simulation (think of a double-buffer ripple solver Shader Graph, for
+skipped. It is also simpler to setup, and prevents precision issues when running
+some type of simulations (think of a double-buffer ripple solver Shader Graph, for
 example).
 
 ## How to run the demo:
