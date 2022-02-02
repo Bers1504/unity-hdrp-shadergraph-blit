@@ -1,4 +1,4 @@
-# Unity-HDRPShaderGraphToTexture
+# unity-hdrp-shadergraph-blit
 Demo of a simple patch node (Custom Function) that can be added in Shader
 Graphs to fix broken Graphics.Blit with HDRP in Unity 2019.4 and 2020.1.
 
